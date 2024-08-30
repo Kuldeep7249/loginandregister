@@ -1,0 +1,48 @@
+/* LoginForm.css */
+
+form {
+    max-width: 300px;
+    margin: 40px 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(69, 69, 139);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"],[type="text"], input[type="password"] {
+    width: auto;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .loading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .error {
+    color: red;
+  }
